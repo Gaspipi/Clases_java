@@ -1,20 +1,16 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
 
-               int numEntero = 400000; //Int -> Integer / entero
-                Short numChico = 400; //
-                Long numGrandes = 5000234L;
-                String nombre = "Roman"; // Cadena de caracteres
-                Character letra = 'C'; // Caracter
-                Boolean bool = Boolean.TRUE; //V - F
-                Float flotante = 5.7346346373474373743573457f;
-                Double NumConComas = 4.567456454;
+        Scanner leer = new Scanner(System.in); //
+        int num1,num2;
+        System.out.println("Ingrese un numero por teclado");
+        num1 = Integer.parseInt(leer.next());
+        System.out.println("Ingrese otro numero por teclado");
+        num2 = Integer.parseInt(leer.next());
 
-
-             System.out.println(numChico + " * " + NumConComas + "=" + numChico*NumConComas);
-
-
-
+        System.out.println("La suma de los dos numeros ingresados da como resultado: " + (num1+num2));
 
 
 
