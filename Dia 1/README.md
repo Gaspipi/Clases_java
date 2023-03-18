@@ -21,7 +21,7 @@
 
 Para mas informacion sobre los comandos de Git recomiendo que entren a [este link](https://learngitbranching.js.org/) para aprender Git de una manera mas amigable utilizando ejemplos y de manera grafica.
 
-### Ahora vamos a aprender a crear un repositorio remoto en GitHu
+### Ahora vamos a aprender a crear un repositorio remoto en GitHub
 
 Para conectar Git a un repositorio remoto, debes seguir los siguientes pasos:
 
@@ -50,4 +50,3 @@ Ten en cuenta que estos son solo los pasos básicos para conectar tu repositorio
 Espero que esta información te sea útil.
 
 
-###End
