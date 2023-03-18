@@ -19,7 +19,7 @@
     
 9.  `git remote add origin [URL del repositorio remoto]`: En este comando, "origin" es el nombre asignado al repositorio remoto. Puedes usar cualquier nombre que desees.
 
-Para mas informacion sobre los comandos de Git recomiendo que entren a [este link]([Learn Git Branching](https://learngitbranching.js.org/)) para aprender Git de una manera mas amigable utilizando ejemplos y de manera grafica.
+Para mas informacion sobre los comandos de Git recomiendo que entren a [este link]([Learn Git Branching](https://learngitbranching.js.org/) para aprender Git de una manera mas amigable utilizando ejemplos y de manera grafica.
 
 ### Ahora vamos a aprender a crear un repositorio remoto en GitHu
 
@@ -48,3 +48,6 @@ Para conectar Git a un repositorio remoto, debes seguir los siguientes pasos:
 Ten en cuenta que estos son solo los pasos básicos para conectar tu repositorio local a uno remoto. También puedes clonar un repositorio remoto existente en tu equipo local utilizando el comando `git clone [URL del repositorio remoto]`.
 
 Espero que esta información te sea útil.
+
+
+###End
