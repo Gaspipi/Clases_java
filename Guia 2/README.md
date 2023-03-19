@@ -1,12 +1,19 @@
 # Tipos de datos primitivos:
 
 `byte`: un número entero de 8 bits con signo
+
 `short`: un número entero de 16 bits con signo
+
 `int`: un número entero de 32 bits con signo
+
 `long`: un número entero de 64 bits con signo
+
 `float`: un número decimal de 32 bits de precisión simple
+
 `double`: un número decimal de 64 bits de precisión doble
+
 `char`: un solo carácter Unicode de 16 bits
+
 `boolean`: un valor verdadero o falso (`true` o `false`)
 
 # Estructura de un programa Java
