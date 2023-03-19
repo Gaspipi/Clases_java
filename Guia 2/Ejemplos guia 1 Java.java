@@ -1,5 +1,5 @@
 public class Main {
-
+    public static void main(String[] args) {
     //Crear un proyecto de Java y definir al menos 6 variables en tu IDE de distintos tipos de datos.
     // Ahora deberás asignarles un valor.
     //Define variables donde puedas alojar los resultados y prueba usar dos operadores de cada tipo.
@@ -28,4 +28,5 @@ public class Main {
              int edad = 23;
              String nombre = "Roman";
         System.out.println("Mi nombre es " + nombre + " y mi edad es: " + edad);
+}
 }
