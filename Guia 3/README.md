@@ -81,7 +81,7 @@ do {
 } while (i < 10);
 ```
 
-6.  Estructura de control "foreach":
+6.  Estructura de control `foreach`:
 
 La estructura "foreach" se utiliza para iterar sobre una colección de elementos, como un arreglo o una lista. En lugar de especificar una variable de control de bucle y un límite, como en un bucle "for" tradicional, la estructura "foreach" utiliza una variable para iterar sobre cada elemento de la colección.
 
@@ -93,7 +93,7 @@ for (String nombre : nombres) {
 }
 ```
 
-7.  Estructura de control "break":
+7.  Estructura de control `break`:
 
 La estructura "break" se utiliza para salir de un bucle o una estructura de control "switch" antes de que se haya completado. Cuando se encuentra una declaración "break", la ejecución del bucle o estructura de control "switch" se detiene y se pasa al siguiente bloque de código.
 
@@ -106,7 +106,7 @@ for (int i = 0; i < 10; i++) {
 }
 ```
 
-8.  Estructura de control "continue":
+8.  Estructura de control `continue`:
 
 La estructura "continue" se utiliza para saltar a la siguiente iteración de un bucle sin salir del bucle por completo. Cuando se encuentra una declaración "continue", el bucle pasa a la siguiente iteración y salta cualquier código restante en el bloque actual.
 
