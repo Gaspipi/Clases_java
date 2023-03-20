@@ -1,50 +1,57 @@
-# Tipos de datos primitivos:
+# Fundamentos de Java
 
-`byte`: un número entero de 8 bits con signo
+Java es un lenguaje de programación de alto nivel, orientado a objetos y multiplataforma. Fue desarrollado por Sun Microsystems en la década de 1990 y actualmente es propiedad de Oracle Corporation.
 
-`short`: un número entero de 16 bits con signo
+## Estructura de un programa Java
 
-`int`: un número entero de 32 bits con signo
-
-`long`: un número entero de 64 bits con signo
-
-`float`: un número decimal de 32 bits de precisión simple
-
-`double`: un número decimal de 64 bits de precisión doble
-
-`char`: un solo carácter Unicode de 16 bits
-
-`boolean`: un valor verdadero o falso (`true` o `false`)
-
-# Estructura de un programa Java
+Un programa Java se compone de una o más clases. Cada clase define un conjunto de variables y métodos que describen el comportamiento de un objeto. El siguiente es un ejemplo de la estructura básica de una clase Java:
 
 
 ```Java
-public class Main {
+
+public class MiClase {          
+
+	// Variables     
+	private int miVariable;         
 	
-	public static void main(String[] args) {
-	//
-	// CODIGO
-	//
+	// Constructor
+	public MiClase() {
+		miVariable = 0;     
 	}
+	
+	// Métodos     
+	public int getMiVariable() {         
+		return miVariable;     
+	}          
+	
+	public void setMiVariable(int valor) {
+		miVariable = valor;     
+	} 
 }
 ```
 
-Lo primero que vemos es la clase `Main`, y dentro de esta se encuentra el metodo `main`, por el momento solo vamos a escribir codigo dentro este metodo.
+En este ejemplo, la clase `MiClase` define una variable privada llamada `miVariable`, un constructor que inicializa la variable en cero, y dos métodos públicos para obtener y establecer el valor de la variable.
+
+## Variables y tipos de datos
+
+En Java, las variables deben ser declaradas con un tipo de datos específico. Los tipos de datos primitivos en Java incluyen:
+
+-   `byte`: un número entero de 8 bits con signo
+-   `short`: un número entero de 16 bits con signo
+-   `int`: un número entero de 32 bits con signo
+-   `long`: un número entero de 64 bits con signo
+-   `float`: un número decimal de 32 bits de precisión simple
+-   `double`: un número decimal de 64 bits de precisión doble
+-   `char`: un solo carácter Unicode de 16 bits
+-   `boolean`: un valor verdadero o falso (`true` o `false`)
+
+Además de los tipos de datos primitivos, Java también tiene tipos de datos de referencia, que incluyen objetos, arrays, clases, interfaces y enumeraciones.
+
+## Operadores y expresiones
+
+Java admite una variedad de operadores, como aritméticos, lógicos, relacionales y de asignación. Las expresiones en Java están formadas por variables, valores literales, llamadas a métodos y operadores. Por ejemplo:
 
 ```Java
-public class Main {
-	
-	public static void main(String[] args) {
-		int numero1, numero2, resultado;
-		numero1 = 5;
-		numero2 = 10;
-		resultado = numero1 + numero2;
-		System.out.println(resultado); //Se imprime el resultado de 10 + 5, o sea 15
-	}
-}
+int resultado = 5 + 3 * 2; // resultado es igual a 11 
+boolean esVerdadero = resultado > 10; // esVerdadero es igual a true
 ```
-
-En este programa podemos ver como declaramos 3 variables de tipo entero o `int`, a `numero1` y `numero2` le damos valores (5 y 10 respectivamente), luego sumamos `numero1` con `numero2` y lo guardamos en `resultado` para mostrarlo en pantalla usando `System.out.println()`
-
-Como podemos ver, todo lo que se encuentre dentro del metodo `main` se ejecuta, por tanto todo nuestro codigo debe escribirse dentro de ese metodo.
