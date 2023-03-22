@@ -10,6 +10,8 @@ En este repositorio, encontrarás una variedad de recursos para ayudarte a apren
 -   **Ejemplos de código**: una colección de ejemplos de código que muestran cómo se utilizan diferentes características de Java, como la creación de objetos, la manipulación de cadenas y la lectura y escritura de archivos.
 -   **Proyectos de Java**: una colección de proyectos de Java que te permitirán aplicar tus habilidades y aprender de manera práctica. Los proyectos incluyen desde aplicaciones básicas hasta proyectos más avanzados, como aplicaciones de bases de datos y aplicaciones web.
 
+[*Documentacion Java*](https://www.javatpoint.com/java-tutorial)
+
 Además, en este repositorio también encontrarás recursos para aprender Git, un sistema de control de versiones ampliamente utilizado para el desarrollo de software. Aprender Git te permitirá colaborar en proyectos de manera más eficiente y organizar tu propio trabajo de manera más efectiva.
 
 Este repositorio se basa en el curso de Java ofrecido por Egg Corporation. Este curso está diseñado para ayudarte a adquirir las habilidades necesarias para trabajar con Java y desarrollar aplicaciones de software de calidad. El curso cubre todo, desde los conceptos básicos hasta los temas más avanzados, y se centra en la aplicación práctica de los conceptos de Java.
