@@ -1,6 +1,6 @@
-### Antes de continuar, si todavia no dispones de una instalacion de Git en tu computadora haz [click aqui](/Instalacion.md) para leer la guia de instalacion de Git para los diferentes sistemas operativos.
+### Antes de continuar, si todavia no dispones de una instalacion de Git en tu computadora haz [click aqui](Instalacion.md) para leer la guia de instalacion de Git para los diferentes sistemas operativos.
 
-### Si deseas colaborar con el repositorio te recomiendo que leas [Este documento](/Como%20colaborar.md) para que sepas de que manera puedes ayudar al repositorio a crecer.
+### Si deseas colaborar con el repositorio te recomiendo que leas [Este documento](Como_colaborar.md) para que sepas de que manera puedes ayudar al repositorio a crecer.
 
 
 # Comandos de Git
