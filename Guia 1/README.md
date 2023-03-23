@@ -1,3 +1,8 @@
+### Antes de continuar, si todavia no dispones de una instalacion de Git en tu computadora haz [click aqui](/Instalacion.md) para leer la guia de instalacion de Git para los diferentes sistemas operativos.
+
+### Si deseas colaborar con el repositorio te recomiendo que leas [Este documento](/Como%20colaborar.md) para que sepas de que manera puedes ayudar al repositorio a crecer.
+
+
 # Comandos de Git
 ### A continuacion se enumeran algunos de los comandos mas comunes de Git 
 
@@ -45,8 +50,5 @@ Para conectar Git a un repositorio remoto, debes seguir los siguientes pasos:
     
 10.  Finalmente, sube tus cambios al repositorio remoto con el comando `git push -u origin master`. Este comando subirá la rama `master` de tu repositorio local al repositorio remoto `origin`.
 
-Ten en cuenta que estos son solo los pasos básicos para conectar tu repositorio local a uno remoto. También puedes clonar un repositorio remoto existente en tu equipo local utilizando el comando `git clone [URL del repositorio remoto]`.
-
-Espero que esta información te sea útil.
 
 
