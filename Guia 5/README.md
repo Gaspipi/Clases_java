@@ -35,7 +35,10 @@ tipo[] nombreArreglo = {valor1, valor2, valor3, ..., valorN};
 2.  Inicialización por asignación: se utiliza la siguiente sintaxis para inicializar un arreglo con valores asignados en tiempo de ejecución:
 
 ```Java
-tipo[] nombreArreglo = new tipo[tamaño]; nombreArreglo[0] = valor1; nombreArreglo[1] = valor2; ... nombreArreglo[N-1] = valorN;
+tipo[] nombreArreglo = new tipo[tamaño]; 
+nombreArreglo[0] = valor1;
+nombreArreglo[1] = valor2;
+  ... nombreArreglo[N-1] = valorN;
 ```
 
 Donde "nombreArreglo" es el nombre del arreglo, "tipo" es el tipo de dato de los elementos que se van a almacenar en el arreglo, "tamaño" es la cantidad de elementos que se desea almacenar y "valor1", "valor2", ..., "valorN" son los valores que se desean asignar a cada elemento del arreglo.
@@ -55,24 +58,27 @@ Donde "nombreArreglo" es el nombre del arreglo e "indice" es el número que iden
 A continuación, se muestra un ejemplo de cómo declarar, crear, inicializar y acceder a los elementos de un arreglo en Java:
 ```Java
 public class EjemploArreglo {
-public static void main(String[] args) {         
-// Declaración de un arreglo de enteros
-int[] numeros;
-// Creación de un arreglo de enteros con cinco elementos
-numeros = new int[5];
-// Inicialización de los elementos del arreglo
-numeros[0] = 1;
-numeros[1] = 2;
-numeros[2] = 3;
-numeros[3] = 4;
-numeros[4] = 5;
-// Acceso a los elementos del arreglo
-System.out.println("El primer elemento del arreglo es: " + numeros[0]);
-System.out.println("El tercer elemento del arreglo es: " + numeros[2]);
+    public static void main(String[] args) {         
+        // Declaración de un arreglo de enteros
+        int[] numeros;
+        // Creación de un arreglo de enteros con cinco elementos
+        numeros = new int[5];
+        // Inicialización de los elementos del arreglo
+        numeros[0] = 1;
+        numeros[1] = 2;
+        numeros[2] = 3;
+        numeros[3] = 4;
+        numeros[4] = 5;
+        // Acceso a los elementos del arreglo
+        System.out.println("El primer elemento del arreglo es: " + numeros[0]);
+        System.out.println("El tercer elemento del arreglo es: " + numeros[2]);
+    }
+}
 ```
 
 En este ejemplo, se crea un arreglo de enteros con cinco elementos y se inicializan los valores del arreglo con los números del 1 al 5. Luego, se accede a los elementos del arreglo utilizando su índice y se imprimen en la consola. El resultado sería el siguiente:
 
 ```bash
-El primer elemento del arreglo es: 1 El tercer elemento del arreglo es: 3
+El primer elemento del arreglo es: 1 
+El tercer elemento del arreglo es: 3
 ```
