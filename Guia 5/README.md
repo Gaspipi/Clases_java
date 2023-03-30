@@ -58,20 +58,24 @@ Donde "nombreArreglo" es el nombre del arreglo e "indice" es el número que iden
 A continuación, se muestra un ejemplo de cómo declarar, crear, inicializar y acceder a los elementos de un arreglo en Java:
 ```Java
 public class EjemploArreglo {
-    public static void main(String[] args) {         
+    public static void main(String[] args) {
         // Declaración de un arreglo de enteros
         int[] numeros;
+
         // Creación de un arreglo de enteros con cinco elementos
         numeros = new int[5];
+
         // Inicialización de los elementos del arreglo
         numeros[0] = 1;
         numeros[1] = 2;
         numeros[2] = 3;
         numeros[3] = 4;
         numeros[4] = 5;
+
         // Acceso a los elementos del arreglo
         System.out.println("El primer elemento del arreglo es: " + numeros[0]);
-        System.out.println("El tercer elemento del arreglo es: " + numeros[2]);
+        System.out.println("El tercer elemento del arreglo es: " + numeros[2
+
     }
 }
 ```
@@ -82,3 +86,28 @@ En este ejemplo, se crea un arreglo de enteros con cinco elementos y se iniciali
 El primer elemento del arreglo es: 1 
 El tercer elemento del arreglo es: 3
 ```
+
+## Bucle for-each
+
+En Java, un `for-each` (o `for mejorado`) es una forma simplificada de recorrer elementos de una estructura de datos como un array, una lista o un conjunto. La sintaxis de un `for-each` es la siguiente:
+
+
+
+```Java
+for (TipoDeDato nombreDeVariable : estructuraDeDatos) {
+// cuerpo del bucle 
+}
+```
+En este bucle `for-each`, `TipoDeDato` es el tipo de dato de los elementos de la estructura de datos, `nombreDeVariable` es el nombre de la variable que se utiliza para hacer referencia a cada elemento de la estructura de datos y `estructuraDeDatos` es la estructura de datos que se va a recorrer.
+
+Para recorrer un array con un `for-each`, se utiliza la siguiente sintaxis:
+
+
+```Java
+int[] numeros = {1, 2, 3, 4, 5};
+for (int numero : numeros) {
+	System.out.println(numero);
+}
+```
+
+En este ejemplo, se define un array de números y se utiliza un `for-each` para recorrer cada elemento del array y mostrarlo por pantalla. La variable `numero` se utiliza para hacer referencia a cada elemento del array en cada iteración del bucle.
