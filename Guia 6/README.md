@@ -1,6 +1,6 @@
 # Comandos de Git parte 2
 
-En esta guía, aprenderemos [cómo colaborar](/Como_contribuir.md) en otros repositorios de GitHub utilizando Git y [como invitar a otros](/Invitar_a_contribuir.md) a colaborar en los nuestros. Veremos los comandos necesarios para clonar un repositorio, crear una nueva rama, hacer cambios en el código y enviar una pull request para que el propietario del repositorio los revise.
+En esta guía, aprenderemos [cómo colaborar](Como_contribuir.md) en otros repositorios de GitHub utilizando Git y [como invitar a otros](Invitar_a_contribuir.md) a colaborar en los nuestros. Veremos los comandos necesarios para clonar un repositorio, crear una nueva rama, hacer cambios en el código y enviar una pull request para que el propietario del repositorio los revise.
 
 -   `git branch`: Este comando te muestra una lista de todas las ramas (branches) que existen en tu repositorio. Las ramas son versiones alternativas de tu proyecto que se pueden utilizar para experimentar o trabajar en nuevas características sin afectar la versión principal.
     
